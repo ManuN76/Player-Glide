@@ -1,0 +1,41 @@
+{
+  "kind": "column",
+  "name": "Dictaphone",
+  "description": "",
+  "author": "Manu.n",
+  "params": [
+    {
+      "name": "title",
+      "displayName": "Title",
+      "type": "string"
+    },
+    {
+      "name": "volume",
+      "displayName": "Volume 0 ... 100 (%)",
+      "type": "number"
+    },
+    {
+      "name": "author",
+      "displayName": "Author List (separator ',') or a single value",
+      "type": "string"
+    },
+    {
+      "name": "song",
+      "displayName": "Song List (separator ',') or a single value",
+      "type": "string"
+    },
+    {
+      "name": "image",
+      "displayName": "Image Url List (separator ',') or a single value",
+      "type": "string"
+    },
+    {
+      "name": "url",
+      "displayName": "Audio URL List (separator ',') or a single value",
+      "type": "string"
+    }
+  ],
+  "result": {
+    "type": "uri"
+  }
+}
